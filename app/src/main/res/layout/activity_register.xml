@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c7704286a7a95f632fa965e9ccd7eab2"
+    tools:context=".RegisterActivity">
+
+    <!-- Поле для ввода логина -->
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Введите логин"
+        android:inputType="text"
+        android:minHeight="48dp" /> <!-- Минимальная высота для области касания -->
+
+    <!-- Поле для ввода пароля -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"
+        android:minHeight="48dp" /> <!-- Минимальная высота для области касания -->
+
+    <!-- Поле для ввода имени -->
+    <EditText
+        android:id="@+id/editNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:hint="Введите имя"
+        android:background="@drawable/edit_text_background"
+        android:minHeight="48dp" /> <!-- Минимальная высота для области касания -->
+
+    <!-- Поле для ввода команды -->
+    <EditText
+        android:id="@+id/editTeamText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:hint="Введите команду"
+        android:background="@drawable/edit_text_background"
+        android:minHeight="48dp" /> <!-- Минимальная высота для области касания -->
+
+    <!-- Кнопка для регистрации -->
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Зарегистрироваться!" />
+</RelativeLayout>

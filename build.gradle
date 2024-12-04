@@ -1,0 +1,7 @@
+// Файл build.gradle (в корне проекта)
+plugins {
+    alias(libs.plugins.android.application) apply false
+}
+dependencies {
+
+}

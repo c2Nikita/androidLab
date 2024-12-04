@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".NewsFragment">
+
+    <!-- Первый TextView -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Breaking News: Sunshine All Day!"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <!-- Второй TextView -->
+
+    <!-- Третий TextView -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:background="@android:color/holo_green_light"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sports Update: Local Team Wins!"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Entertainment: New Movie Release!"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</FrameLayout>

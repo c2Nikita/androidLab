@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c7704286a7a95f632fa965e9ccd7eab2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_background"
+        android:hint="Введите логин"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextUsername"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_background"
+        android:hint="Введите пароль"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Войти!"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonLogin"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Зарегистрироваться!"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

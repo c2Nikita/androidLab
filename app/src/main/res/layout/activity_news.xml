@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/image1"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/SomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать в основное окно!"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/buttonNewBackGround"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать новый фон" />
+
+    <TextView
+        android:id="@+id/ProfileTeamText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/RealProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Профиль" />
+
+    <TextView
+        android:id="@+id/ProfileNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+</LinearLayout>
